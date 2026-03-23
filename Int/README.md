@@ -12,7 +12,7 @@
 ```cpp
 class BigInt {
 private:
-    bool is_neg = false;
+    bool is_neg;
     std::vector<uint32_t> limbs;
     /*===== 以上为大整数类的主要数据成员 =====*/
     /*=====      uint32_t详见第3点     =====*/
